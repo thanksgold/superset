@@ -51,8 +51,6 @@ DATABASE_HOST = get_env_variable("DATABASE_HOST")
 DATABASE_PORT = get_env_variable("DATABASE_PORT")
 DATABASE_DB = get_env_variable("DATABASE_DB")
 
-PUBLIC_ROLE_LIKE = "Gamma"
-
 BABEL_DEFAULT_LOCALE = "en"
 LANGUAGES = {
     "en": {"flag": "us", "name": "English"},
