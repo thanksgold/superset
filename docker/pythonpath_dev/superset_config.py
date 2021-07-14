@@ -50,8 +50,13 @@ DATABASE_PASSWORD = get_env_variable("DATABASE_PASSWORD")
 DATABASE_HOST = get_env_variable("DATABASE_HOST")
 DATABASE_PORT = get_env_variable("DATABASE_PORT")
 DATABASE_DB = get_env_variable("DATABASE_DB")
+
 PUBLIC_ROLE_LIKE = "Gamma"
- 
+LANGUAGES = {
+    "en": {"flag": "us", "name": "English"},
+    "ru": {"flag": "ru", "name": "Russian"}
+}
+
 # The SQLAlchemy connection string.
 SQLALCHEMY_DATABASE_URI = "%s://%s:%s@%s:%s/%s" % (
     DATABASE_DIALECT,
