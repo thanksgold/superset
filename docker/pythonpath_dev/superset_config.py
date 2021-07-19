@@ -57,6 +57,7 @@ LANGUAGES = {
     "ru": {"flag": "ru", "name": "Russian"}
 }
 
+MAPBOX_API_KEY = "pk.eyJ1IjoidGhhbmtzZ29sZCIsImEiOiJja3JhZHh4eDQ0MW55MnJueHE1Y2Z5MDF2In0.PMkxZRvwchf7J4hpvy8Cww"
 # The SQLAlchemy connection string.
 SQLALCHEMY_DATABASE_URI = "%s://%s:%s@%s:%s/%s" % (
     DATABASE_DIALECT,
